@@ -1,6 +1,3 @@
-The currently activated Python version 2.7.16 is not supported by the project (^3.9).
-Trying to find and use a compatible version. 
-Using python3 (3.9.6)
 id,aggregated_by,aggregate_name,year,start_date,end_date,brand,count,percentage
 1,state,andaman-&-nicobar-islands,2019,2019-01-01,2019-03-31,Xiaomi,4576,0.24607442460744247
 2,state,andaman-&-nicobar-islands,2019,2019-01-01,2019-03-31,Samsung,3567,0.19181544418154442

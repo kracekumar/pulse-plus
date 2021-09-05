@@ -1,6 +1,3 @@
-The currently activated Python version 2.7.16 is not supported by the project (^3.9).
-Trying to find and use a compatible version. 
-Using python3 (3.9.6)
 id,aggregated_by,aggregate_name,year,start_date,end_date,entity_name,entity_type,type,count,amount
 1,state,andaman-&-nicobar-islands,2019,2019-01-01,2019-03-31,744103,pincodes,TOTAL,5742,19401964.77965755
 2,state,andaman-&-nicobar-islands,2019,2019-01-01,2019-03-31,744101,pincodes,TOTAL,5156,15501306.227195919
