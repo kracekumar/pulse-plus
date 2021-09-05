@@ -137,5 +137,9 @@ id,aggregated_by,aggregate_name,year,start_date,end_date,name,type,count,amount
 3,state,andaman-&-nicobar-islands,2019,2019-01-01,2019-03-31,Merchant payments,TOTAL,1759,3266589.8469614363
 ```
 
+# Datasette
+
+Serve the sqlite in database using datasets. `$poetry run datasette serve data/v1/pulse.db`
+
 
 
