@@ -96,8 +96,10 @@ def create_tables(db):
         table = TABLE_NAMES[name]
         try:
             if name == "top_transaction":
+                non_null_fields = set(fields.keys())
+                non_null_fields.remove("entity_name")
                 db[table].create(
-                    fields, pk="id", not_null=set(fields.keys()).remove("entity_name")
+                    fields, pk="id", not_null=non_null_fields
                 )
             else:
                 db[table].create(fields, pk="id", not_null=set(fields.keys()))

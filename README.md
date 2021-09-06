@@ -95,19 +95,18 @@ Utilities to explore, convert PhonePe [Pulse data](https://github.com/PhonePe/pu
       [registered_users] INTEGER NOT NULL
    );
    CREATE TABLE [top_transaction] (
-      [id] INTEGER PRIMARY KEY,
-      [aggregated_by] TEXT,
-      [aggregate_name] TEXT,
-      [year] INTEGER,
-      [start_date] TEXT,
-      [end_date] TEXT,
+      [id] INTEGER PRIMARY KEY NOT NULL,
+      [aggregated_by] TEXT NOT NULL,
+      [aggregate_name] TEXT NOT NULL,
+      [year] INTEGER NOT NULL,
+      [start_date] TEXT NOT NULL,
+      [end_date] TEXT NOT NULL,
       [entity_name] TEXT,
-      [entity_type] TEXT,
-      [type] TEXT,
-      [count] INTEGER,
-      [amount] FLOAT
+      [entity_type] TEXT NOT NULL,
+      [type] TEXT NOT NULL,
+      [count] INTEGER NOT NULL,
+      [amount] FLOAT NOT NULL
    );
-   
    ```
 
 # Functionalities
